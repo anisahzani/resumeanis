@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <title>Education – Nur Anisah</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-image: url('images/backgroundwall.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 40px 50px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header h1 {
+      font-size: 34px;
+      font-weight: bold;
+      color: #6c5ce7;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #2d3436;
+      margin: 0 12px;
+      font-weight: bold;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .menu a:hover {
+      color: #6c5ce7;
+    }
+
+    /* Section Title */
+    .section-title {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #6c5ce7;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    /* School Entry */
+    .school {
+      position: relative;
+      margin-bottom: 35px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .school img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s;
+    }
+
+    .school:hover img {
+      transform: scale(1.03);
+    }
+
+    .school-name {
+      position: absolute;
+      bottom: 15px;
+      left: 20px;
+      font-size: 22px;
+      font-weight: 600;
+      color: #fff;
+      background: rgba(0,0,0,0.4);
+      padding: 8px 15px;
+      border-radius: 8px;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    }
+
+    /* Responsive */
+    @media screen and (max-width: 768px) {
+      .school img {
+        height: 200px;
+      }
+      .school-name {
+        font-size: 18px;
+        padding: 6px 12px;
+      }
+      .header h1 {
+        font-size: 28px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header -->
+  <div class="header">
+    <h1>My Education Journey</h1>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="family.html">Family</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="skills.html">Skills</a>
+    </div>
+  </div>
+
+  <!-- Section Title -->
+  <div class="section-title">Education Background</div>
+
+  <!-- Schools -->
+  <div class="school">
+    <img src="images/tadika.jpg" alt="Kindergarten">
+    <div class="school-name">Tadika Pasti At-Taqwa</div>
+  </div>
+
+  <div class="school">
+    <img src="images/primaryschool.jpg" alt="Primary school">
+    <div class="school-name">SK Parit Raja</div>
+  </div>
+
+  <div class="school">
+    <img src="images/highschool.jpg" alt="Secondary School">
+    <div class="school-name">SMK Tengku Mahkota</div>
+  </div>
+
+  <div class="school">
+    <img src="images/university.jpg" alt="University">
+    <div class="school-name">Universiti Teknologi MARA (UiTM) </div>
+  </div>
+
+</div>
+
+</body>
+</html>
+
+
